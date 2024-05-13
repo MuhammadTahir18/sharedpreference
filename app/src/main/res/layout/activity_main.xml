@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img_1"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wellcome to login screen"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="30dp"
+      android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:hint="please enter your name"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+       android:layout_marginHorizontal="30dp"
+        android:background="@color/white"
+        android:hint="please enter your password"
+        android:id="@+id/password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save Data"
+       android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="30dp"
+        android:id="@+id/btnsave"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>
